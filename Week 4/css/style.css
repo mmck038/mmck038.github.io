@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700,400italic,700italic);
+
+body {
+	
+	background: #000;
+	font-size: 14px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+	color: #000;
+	margin: 20px;
+	
+}
+
+h1 {
+	/*background: #FFF;*/
+	font-family: 'Pinyon Script', cursive;
+	font-size: 48px;
+	color:	#000;
+}
+
+#slogan{
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+
+hr {
+	width: 360px;
+	color:	#00FFFF;
+}
+
+a{
+	color:	#ADF;
+	text-decoration: none;
+}
+
+a:hover{
+	color:	#00FFFF;
+	border: #00FFFF solid 2px;
+	text-decoration: none;
+	padding: 14px;
+}
+
+.wrapper{
+	width: 550px;
+	margin: 0 auto;
+	padding: 20px;
+	/*background-image:  url("../images/US.jpg");*/
+	background: white;
+	background-size: cover;
+}
+
+ul{
+	text-align: left;
+}
+
