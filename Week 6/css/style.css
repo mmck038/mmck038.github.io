@@ -1,0 +1,231 @@
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Hind:400,700);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	background: white;
+	font-size: 16px;
+	font-family: 'Hind', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	color: black;
+	
+}
+
+
+.wrapper{
+	width: 72%;
+	margin: 0 auto;
+	padding: 1% 14%;
+	/*background-image:  url("../images/US.jpg");*/
+	
+	background-size: cover;
+}
+
+
+header{
+	display: block;
+	float:	left;
+	/*padding: 10px;*/
+	width: 100%;
+	background-color: white;
+	/*border: #ffff33 solid 2px;*/
+	border-bottom: white solid 2px;
+	
+}
+
+.logo{
+	/*background-color: #ABC;*/
+	display: block;
+	float:	left;
+	width: 33.33%;
+}
+
+.logo img{
+	display: block;
+	float:	left;
+	height: 150px;
+	margin: 10px;
+}
+
+.slogan{
+	/*background-color: #ABD;*/
+	display: block;
+	float:	left;
+	width: 33.33%;
+	text-align: left;
+	height: 170px;
+	line-height: 170px;
+	
+}
+
+.slogan h1{
+	/*background: #FFF;*/
+	/*font-family: 'Pinyon Script', cursive;*/
+	font-size: 60px;
+	font-weight: 700;
+	color: black;
+	
+
+}
+
+nav {
+	/*background-color: #ABF;*/
+	display: block;
+	float:	left;
+	width: 23.34%;
+	height: 170px;
+	line-height: 170px;
+	padding: 0 5%;
+	
+}
+
+nav a{
+	/*background-color: #CBF;*/
+	color: black	;
+	text-decoration: none;
+	display: block;
+	float:	right;
+	width: 20%;
+	height: 5em;
+	/*padding: 0 .5em;*/
+	margin: 45px 2.5%;
+	line-height: 80px;
+	
+	
+
+	
+}
+
+nav a:hover{
+
+		color: #727269;
+		text-decoration: none;
+}
+
+
+.row{
+	clear: both;
+	display: block;
+	float:	left;
+	width: 100%;
+	background-color: white;
+	border-bottom: white solid 2px;
+	
+}
+
+
+#row1 .mainimage{
+	background-color: #ABC;
+	display: block;
+	float:	left;
+	width: 66.66%;
+	height: 500px;
+	
+	
+}
+
+#row1 .mainimage img{
+	display: block;
+	float:	left;
+	width: 100%;
+	height: 500px;
+
+}
+#row1 .aboutimage{
+	background-color: #ABC;
+	display: block;
+	float:	left;
+	width: 100%;
+	height: 500px;
+	
+}
+
+#row1 .aboutimage img{
+	display: block;
+	float:	left;
+	width: 100%;
+	height: 500px;
+
+}
+#row1 .copy{
+	display: block;
+	float:	left;
+	width: 23.34%;
+	padding: 0 5%;
+	line-height: 500px;
+	color: black;
+	background-color: #FFFF33;
+
+}
+
+#row2 .mainimage{
+	background-color: #ABC;
+	display: block;
+	float:	left;
+	width: 66.66%;
+	height: 500px;
+	
+	
+}
+
+#row2 .mainimage img{
+	display: block;
+	float:	left;
+	width: 100%;
+	height: 500px;
+
+	
+}
+
+#row2 .copy{
+	display: block;
+	float:	left;
+	width: 23.34%;
+	padding: 0 5%;
+	line-height: 500px;
+	color: black;
+	background-color: #FFFF33;
+
+}
+
+.row a{
+	color: black;
+	text-decoration: none;
+}
+
+
+.row a:hover{
+		color: #727269;
+		text-decoration: none;
+}
+
+.aboutcopy{
+	clear: both;
+	background-color: #FFFF33;
+	padding: 20px 100px;
+	color: black;
+}
+
+footer{
+	clear: both;
+	padding: 20px 100px;
+}
+
+/*
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+*/
+
